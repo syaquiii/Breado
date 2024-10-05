@@ -9,7 +9,7 @@ const hero = () => {
             <span>Breado</span>
           </div>
           <div
-            className="text-white   lg:gap-20 lg:text-4xl font-medium lg:flex
+            className="text-white lg:gap-20 lg:text-4xl font-medium lg:flex
            hidden"
           >
             <span>Home</span>
