@@ -39,11 +39,14 @@ body::-webkit-scrollbar {
   -webkit-backdrop-filter: blur(3px);
 }
 
+.bg-menus {
+  background-image: url(./assets/bg-menus.svg);
+  background-size: contain;
+}
+
 @media only screen and (max-width: 840px) {
   .hero-bg {
     background-image: url(./assets/bg-image-mb.svg);
     background-size: cover;
-    background-position: ;
-    /* background-image: url(./assets/hero-img-mb.png); */
   }
 }

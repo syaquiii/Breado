@@ -21,7 +21,7 @@ const hero = () => {
           <span className="text-5xl lg:text-8xl  leading-snug">
             Breado | Bakery Store
           </span>
-          <div className="lg:text-xl text-md text-white font-medium lg:w-2/3 mt-5  glass p-5 text-justify">
+          <div className="lg:text-2xl text-md text-white font-medium lg:w-2/3 mt-5  glass p-5 text-justify">
             <p>
               Breado is more than just a bakery. With an extensive global
               network, Breado has captured the hearts of customers around the

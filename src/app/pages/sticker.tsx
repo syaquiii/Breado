@@ -41,7 +41,7 @@ const sticker = () => {
             Our breads are made with quality and flavor in every bite, made
             fresh from the oven for a more premium taste.
           </p>
-          {StickerShow}
+          <div className="lg:flex gap-x-8 lg:w-[90%]">{StickerShow}</div>
         </div>
       </div>
     </div>
