@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        ourwhite: "#D9D9D9",
+        ourgray: "#4A4947",
+        ourbrown: "#B17457",
+      },
+      fontFamily: {
+        Ubuntu: ["var(--font-Ubuntu)"],
       },
     },
   },

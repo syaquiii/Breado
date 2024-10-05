@@ -14,14 +14,36 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.hero-bg {
+  background-image: url(./assets/bg-image.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.glass {
+  background: rgba(0, 0, 0, 0.32);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+@media only screen and (max-width: 840px) {
+  .hero-bg {
+    background-image: url(./assets/bg-image-mb.svg);
+    background-size: cover;
+    background-position: ;
+    /* background-image: url(./assets/hero-img-mb.png); */
   }
 }
