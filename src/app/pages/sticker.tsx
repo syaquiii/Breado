@@ -2,7 +2,25 @@ import Image from "next/image";
 import ImgSticker from "../assets/img-sticker.svg";
 
 const sticker = () => {
-  const buttonList = [{}];
+  const StickerList = [
+    {
+      id: 1,
+      title: "100+ Stores around the globe  ",
+    },
+    {
+      id: 2,
+      title: "Made by experienced bakers",
+    },
+  ];
+
+  const StickerShow = StickerList.map((StickerList) => (
+    <button
+      key={StickerList.id}
+      className="bg-ourwhite px-4 py-2 w-full text-ourgray font-semibold  rounded-xl mt-5"
+    >
+      {StickerList.title}
+    </button>
+  ));
   return (
     <div className="bg-ourgray min-h-[45rem] w-full  ">
       <div className="lg:gap-10 lg:flex px-12 lg:px-32 py-20 lg:py-36 ">
@@ -23,9 +41,7 @@ const sticker = () => {
             Our breads are made with quality and flavor in every bite, made
             fresh from the oven for a more premium taste.
           </p>
-          <button className="bg-ourwhite px-4 py-2 w-full text-ourgray font-semibold  rounded-xl mt-5">
-            100+ store around the world
-          </button>
+          {StickerShow}
         </div>
       </div>
     </div>

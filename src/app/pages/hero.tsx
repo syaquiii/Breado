@@ -8,14 +8,16 @@ const hero = () => {
           <div className="text-3xl lg:text-5xl font-bold">
             <span>Breado</span>
           </div>
-          <div className="text-white lg:flex  lg:gap-20 lg:text-4xl font-medium lg:block hidden">
+          <div className="text-white   lg:gap-20 lg:text-4xl font-medium lg:block hidden">
             <span>Home</span>
             <span>Signature</span>
             <span>Menu</span>
           </div>
         </nav>
         <div className="text-white   mt-[6rem] lg:mt-[15rem] 2xl:mt-[10rem] lg:w-2/3">
-          <span className="text-5xl lg:text-8xl  ">Breado | Bakery Store</span>
+          <span className="text-5xl lg:text-8xl  leading-snug">
+            Breado | Bakery Store
+          </span>
           <div className="lg:text-xl text-white font-medium lg:w-2/3 mt-10  glass p-5 text-justify">
             <p>
               Breado is more than just a bakery. With an extensive global
