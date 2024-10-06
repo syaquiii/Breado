@@ -9,9 +9,13 @@ import "swiper/css/pagination";
 
 const menus = () => {
   const imageData = [
-    { id: 1, link: require("../assets/tart.svg"), title: "Strawberry Tart" },
-    { id: 2, link: require("../assets/cupcake.svg"), title: "Mint Cupcake" },
-    { id: 3, link: require("../assets/loaf.svg"), title: "Classic Loaf" },
+    { id: 1, link: require("@/app/assets/tart.svg"), title: "Strawberry Tart" },
+    {
+      id: 2,
+      link: require(".@/app/assets/cupcake.svg"),
+      title: "Mint Cupcake",
+    },
+    { id: 3, link: require("@/app/assets/loaf.svg"), title: "Classic Loaf" },
   ];
 
   const menuShowMobile = imageData.map((imageData) => (
