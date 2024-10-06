@@ -12,11 +12,13 @@ const menus = () => {
     { id: 1, link: require("@/app/assets/tart.svg"), title: "Strawberry Tart" },
     {
       id: 2,
-      link: require(".@/app/assets/cupcake.svg"),
+      link: require("@/app/assets/cupcake.svg"),
       title: "Mint Cupcake",
     },
     { id: 3, link: require("@/app/assets/loaf.svg"), title: "Classic Loaf" },
   ];
+
+  // REDEPLOY
 
   const menuShowMobile = imageData.map((imageData) => (
     <SwiperSlide key={imageData.id}>
