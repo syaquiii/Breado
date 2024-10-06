@@ -1,5 +1,5 @@
 {
-  "name": "breado",
+  "name": "agrarizz",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
-    "next": "14.2.14",
+    "next": "^14.2.13",
     "react": "^18",
     "react-dom": "^18",
     "swiper": "^11.1.14"
@@ -20,23 +20,11 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.14",
+    "eslint-config-next": "14.2.11",
     "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  },
-  "eslintConfig": {
-    "extends": [
-      "xo",
-      "xo-typescript"
-    ],
-    "rules": {
-      "@typescript-eslint/no-require-imports": "off"
-    }
-  },
-  "xo": {
-    "rules": {
-      "@typescript-eslint/no-require-imports": 0
-    }
   }
 }
