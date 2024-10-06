@@ -32,7 +32,7 @@ const menus = () => {
 
   return (
     <div className="bg-menus min-h-[100rem] pt-[5rem] pb-20 lg:py-[10vh]  px-12 lg:px-[14vh]">
-      {/* FIRST CONTENT */}
+      {/* FIRSTT CONTENT */}
       <div className="w-full flex flex-col-reverse lg:flex-row items-center ">
         <div className="lg:w-[70%] lg:mt-[5rem]">
           <h1 className="lg:text-[6vh] text-4xl text-center lg:text-left font-bold text-ourbrown">
