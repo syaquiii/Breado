@@ -1,4 +1,3 @@
-/* eslint-disable no-require-imports */
 "use client";
 import Image from "next/image";
 import Tart from "@/app/assets/tart.svg";
