@@ -1,10 +1,8 @@
 /* eslint-disable no-require-imports */
-
 "use client";
 import Image from "next/image";
 import Menus1 from "../assets/menus-1.svg";
 import Menus2 from "../assets/menus-2.svg";
-import Tart from "../assets/tart.svg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
