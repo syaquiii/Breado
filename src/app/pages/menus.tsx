@@ -37,7 +37,19 @@ const menus = () => {
     </SwiperSlide>
   ));
 
-  const menuShow = imageData.map((imageData) => <div key={imageData.id}></div>);
+  const menuShow = imageData.map((imageData) => (
+    <div key={imageData.id}>
+      <Image
+        className="w-[80%] aspect-square "
+        src={imageData.link}
+        width={500}
+        alt="Picture of the author"
+      />
+      <h1 className="text-2xl -mt-6 text-ourgray font-semibold lg:mt-[1vh]">
+        {imageData.title}
+      </h1>
+    </div>
+  ));
 
   return (
     <div className="bg-menus min-h-[100rem] pt-[5rem] pb-20 lg:py-[10vh]  px-12 lg:px-[14vh]">
@@ -98,7 +110,7 @@ const menus = () => {
         <div className="lg:flex lg:justify-between lg:mt-[10vh] items-center hidden">
           {menuShow}
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center lg:hidden">
           <Swiper
             className=""
             loop={true}
