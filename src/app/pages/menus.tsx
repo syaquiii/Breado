@@ -1,6 +1,9 @@
 /* eslint-disable no-require-imports */
 "use client";
 import Image from "next/image";
+import Tart from "@/app/assets/tart.svg";
+import Cupcake from "@/app/assets/cupcake.svg";
+import Loaf from "@/app/assets/loaf.svg";
 import Menus1 from "../assets/menus-1.svg";
 import Menus2 from "../assets/menus-2.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,13 +13,13 @@ import "swiper/css/pagination";
 
 const menus = () => {
   const imageData = [
-    { id: 1, link: require("@/app/assets/tart.svg"), title: "Strawberry Tart" },
+    { id: 1, link:Tart ,title: "Strawberry Tart" },
     {
       id: 2,
-      link: require("@/app/assets/cupcake.svg"),
+      link: Cupcake,
       title: "Mint Cupcake",
     },
-    { id: 3, link: require("@/app/assets/loaf.svg"), title: "Classic Loaf" },
+    { id: 3, link: Loaf, title: "Classic Loaf" },
   ];
 
   // REDEPLOY
