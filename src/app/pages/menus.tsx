@@ -1,3 +1,6 @@
+/* eslint disable */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+
 "use client";
 import Image from "next/image";
 import Menus1 from "../assets/menus-1.svg";
