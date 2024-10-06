@@ -5,11 +5,11 @@ const hero = () => {
     <div>
       <div className="hero-bg px-12 w-full h-[100vh] lg:px-32 py-14">
         <nav className="text-white flex items-center justify-between">
-          <div className="text-3xl lg:text-5xl font-bold">
+          <div className="text-3xl  lg:text-[6vh] font-bold">
             <span>Breado</span>
           </div>
           <div
-            className="text-white lg:gap-20 lg:text-4xl font-medium lg:flex
+            className="text-white lg:gap-20 lg:text-[3vh] font-medium lg:flex
            hidden"
           >
             <span>Home</span>
@@ -17,11 +17,11 @@ const hero = () => {
             <span>Menu</span>
           </div>
         </nav>
-        <div className="text-white   mt-[3rem] lg:mt-[15rem] 2xl:mt-[10rem] lg:w-2/3">
-          <span className="text-5xl lg:text-8xl  leading-snug">
+        <div className="text-white   mt-[3rem] lg:mt-[12vh] 2xl:mt-[10rem] lg:w-2/3">
+          <span className="text-5xl lg:text-[10vh]  leading-snug">
             Breado | Bakery Store
           </span>
-          <div className="lg:text-2xl text-md text-white font-medium lg:w-2/3 mt-5  glass p-5 text-justify">
+          <div className="lg:text-[2vh] text-lg text-white font-medium lg:w-2/3 mt-5  glass p-5 text-justify">
             <p>
               Breado is more than just a bakery. With an extensive global
               network, Breado has captured the hearts of customers around the

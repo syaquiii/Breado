@@ -4,7 +4,7 @@ import Menus from "./pages/menus";
 
 export default function Home() {
   return (
-    <div className="font-Ubuntu">
+    <div className="font-Ubuntu bg-ourwhite">
       <Hero></Hero>
       <Sticker></Sticker>
       <Menus></Menus>
