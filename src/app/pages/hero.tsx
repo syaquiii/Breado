@@ -21,7 +21,7 @@ const hero = () => {
           <span className="text-5xl lg:text-[10vh]  leading-snug">
             Breado | Bakery Store
           </span>
-          <div className="lg:text-[2vh] text-md text-white font-medium lg:w-2/3 mt-5  glass p-5 text-justify">
+          <div className="lg:text-[3vh] text-md text-white font-medium lg:w-3/3 mt-5  glass p-5 text-justify">
             <p>
               Breado is more than just a bakery. With an extensive global
               network, Breado has captured the hearts of customers around the
@@ -32,7 +32,7 @@ const hero = () => {
               unforgettable culinary experience.
             </p>
           </div>
-          <button className="px-5 py-2 w-fit mt-5 lg:mt-5 glass text-lg flex gap-x-4 items-center">
+          <button className="px-5 py-2 w-fit mt-5 lg:mt-5 glass text-lg flex lg:text-[3vh] gap-x-4 items-center">
             <span>Taste Our Greatness </span>
             <ChevronDoubleRightIcon className="size-6"></ChevronDoubleRightIcon>
           </button>
