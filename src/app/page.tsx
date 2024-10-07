@@ -1,6 +1,7 @@
 import Hero from "./pages/hero";
 import Sticker from "./pages/sticker";
 import Menus from "./pages/menus";
+import Testi from "./pages/testi"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero></Hero>
       <Sticker></Sticker>
       <Menus></Menus>
+      <Testi></Testi>
     </div>
   );
 }
