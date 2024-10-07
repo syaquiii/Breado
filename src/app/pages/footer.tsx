@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Pie from "../assets/pie.svg";
-import Dika from "../assets/dika.jpg"
+import Dika from "../assets/dika.jpg";
 
 const Testi = () => {
     return (
