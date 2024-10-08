@@ -6,7 +6,6 @@ import Candra from "../assets/candra.jpg";
 import Rapi from "../assets/rapi.jpg";
 import Macarons from "../assets/macarons.png";
 import cake from "../assets/cake.svg";
-import { title } from "process";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
