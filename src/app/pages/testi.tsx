@@ -58,7 +58,7 @@ const Testi = () => {
     return (
         <div className="mt-20 min-h-[50vh] bg-ourwhite pb-10 lg:py-[5vh] bg-big lg:-mt-[30vh] px-12 lg:px-[14vh]">
              <Swiper
-      spaceBetween={1}
+      spaceBetween={100}
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
