@@ -1,7 +1,9 @@
 <svg width="1920" height="1113" viewBox="0 0 1920 1113" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g opacity="0.24">
 <rect x="1453" y="752" width="707" height="361" fill="url(#pattern0_1037_2)" fill-opacity="0.25"/>
 <rect x="31.9053" y="521" width="421.85" height="358.845" transform="rotate(33.2792 31.9053 521)" fill="url(#pattern1_1037_2)" fill-opacity="0.35"/>
 <rect x="1206.98" y="0.454102" width="137" height="500" transform="rotate(62.5196 1206.98 0.454102)" fill="url(#pattern2_1037_2)" fill-opacity="0.35"/>
+</g>
 <defs>
 <pattern id="pattern0_1037_2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1037_2" transform="matrix(0.00843917 0 0 0.0165192 -4.27536 -0.361971)"/>

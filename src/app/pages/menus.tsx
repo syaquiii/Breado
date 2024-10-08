@@ -54,7 +54,7 @@ const menus = () => {
   return (
     <div className="bg-menus min-h-[100rem] pt-[5rem] pb-20 lg:py-[10vh]  px-12 lg:px-[14vh]">
       {/* FIRSTT CONTENT */}
-      <div className="w-full flex flex-col-reverse lg:flex-row items-center ">
+      <div className="w-full flex flex-col-reverse mt-22 lg:mt-0 lg:flex-row items-center ">
         <div className="lg:w-[70%] lg:mt-[5rem]">
           <h1 className="lg:text-[6vh] text-4xl text-center lg:text-left font-bold text-ourbrown">
             OUR <span className="text-ourgray">SIGNATURE</span> SOURDOUGH
@@ -79,7 +79,7 @@ const menus = () => {
         </div>
       </div>
       {/* SECOND CONTENT*/}
-      <div className="w-full lg:mt-[8vh] mt-20 flex flex-col-reverse lg:flex-row-reverse items-center ">
+      <div className="w-full  lg:mt-[8vh] mt-36 flex flex-col-reverse lg:flex-row-reverse items-center ">
         <div className="lg:w-[60%] lg:mt-[5rem]  lg:pl-[25vh] ">
           <h1 className="lg:text-[6vh] text-4xl text-center  tracking-tighter lg:text-left font-bold text-ourbrown">
             OUR <span className="text-ourgray">BEST SELLER</span> COOKIES
@@ -103,28 +103,7 @@ const menus = () => {
         </div>
       </div>
       {/* THIRD CONTENT */}
-      <div className="w-full lg:mt-[16vh]">
-        <h1 className="lg:text-[4vh] mt-16 text-3xl font-bold text-ourgray text-center">
-          ALL TIMES <span className="text-ourbrown ">FAVORITE</span>
-        </h1>
-        <div className="lg:flex lg:justify-between lg:mt-[10vh] items-center hidden">
-          {menuShow}
-        </div>
-        <div className="flex justify-center lg:hidden">
-          <Swiper
-            className=""
-            loop={true}
-            freeMode={true}
-            spaceBetween={-15}
-            navigation={true}
-            slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
-            {menuShowMobile}
-          </Swiper>
-        </div>
-      </div>
+     
     </div>
   );
 };

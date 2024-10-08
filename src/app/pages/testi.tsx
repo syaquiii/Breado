@@ -4,7 +4,7 @@ import Dika from "../assets/dika.jpg"
 
 const Testi = () => {
     return (
-        <div className=" min-h-[50vh] bg-ourwhite pb-10 lg:py-[5vh] bg-big  px-12 lg:px-[14vh]">
+        <div className=" min-h-[50vh] bg-ourwhite pb-10 lg:py-[5vh] bg-big lg:-mt-[20vh] px-12 lg:px-[14vh]">
             <div className="lg:flex lg:items-center flex-col">
                 <h1 className="text-4xl lg:text-[8vh] lg:w-[80%] text-ourgray text-center lg:leading-[10vh]"><span className="text-ourbrown">DELUXE</span> SAVOURY PIE WITH MOZZARELA</h1>
                 <Image className="lg:w-[70vh] ms-[2vh] lg:-mr-[8vh] lg:-mt-[2vh]"
