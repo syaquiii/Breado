@@ -1,55 +1,10 @@
 "use client";
 import Image from "next/image";
-import Tart from "@/app/assets/tart.svg";
-import Cupcake from "@/app/assets/cupcake.svg";
-import Loaf from "@/app/assets/loaf.svg";
 import Menus1 from "../assets/menus-1.svg";
 import Menus2 from "../assets/menus-2.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
+
 
 const menus = () => {
-  const imageData = [
-    { id: 1, link:Tart ,title: "Strawberry Tart" },
-    {
-      id: 2,
-      link: Cupcake,
-      title: "Mint Cupcake",
-    },
-    { id: 3, link: Loaf, title: "Classic Loaf" },
-  ];
-
-  // REDEPLOY
-
-  const menuShowMobile = imageData.map((imageData) => (
-    <SwiperSlide key={imageData.id}>
-      <Image
-        className="w-[80%] aspect-square "
-        src={imageData.link}
-        width={500}
-        alt="Picture of the author"
-      />
-      <h1 className="text-2xl -mt-6 text-ourgray font-semibold lg:mt-[1vh]">
-        {imageData.title}
-      </h1>
-    </SwiperSlide>
-  ));
-
-  const menuShow = imageData.map((imageData) => (
-    <div key={imageData.id}>
-      <Image
-        className="w-[80%] aspect-square "
-        src={imageData.link}
-        width={500}
-        alt="Picture of the author"
-      />
-      <h1 className="text-2xl -mt-6 text-ourgray font-semibold lg:mt-[1vh]">
-        {imageData.title}
-      </h1>
-    </div>
-  ));
 
   return (
     <div className="bg-menus min-h-[100rem] pt-[5rem] pb-20 lg:py-[10vh]  px-12 lg:px-[14vh]">
@@ -79,7 +34,7 @@ const menus = () => {
         </div>
       </div>
       {/* SECOND CONTENT*/}
-      <div className="w-full  lg:mt-[8vh] mt-36 flex flex-col-reverse lg:flex-row-reverse items-center ">
+      <div className="w-full  lg:mt-[8vh] mt flex flex-col-reverse lg:flex-row-reverse items-center ">
         <div className="lg:w-[60%] lg:mt-[5rem]  lg:pl-[25vh] ">
           <h1 className="lg:text-[6vh] text-4xl text-center  tracking-tighter lg:text-left font-bold text-ourbrown">
             OUR <span className="text-ourgray">BEST SELLER</span> COOKIES
