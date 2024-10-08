@@ -34,7 +34,7 @@ const menus = () => {
         </div>
       </div>
       {/* SECOND CONTENT*/}
-      <div className="w-full  lg:mt-[8vh] mt flex flex-col-reverse lg:flex-row-reverse items-center ">
+      <div className="w-full mt-24  lg:mt-[8vh] mt flex flex-col-reverse lg:flex-row-reverse items-center ">
         <div className="lg:w-[60%] lg:mt-[5rem]  lg:pl-[25vh] ">
           <h1 className="lg:text-[6vh] text-4xl text-center  tracking-tighter lg:text-left font-bold text-ourbrown">
             OUR <span className="text-ourgray">BEST SELLER</span> COOKIES
