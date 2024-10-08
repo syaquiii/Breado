@@ -1,16 +1,16 @@
 import Image from "next/image";
-import Pie from "@/app/assets/pie.svg"
-import Dika from "../assets/dika.jpg"
-import Candra from "../assets/candra.jpg"
-import Rapi from "../assets/rapi.jpg"
+import Pie from "@/app/assets/pie.svg";
+import Dika from "../assets/dika.jpg";
+// import Candra from "../assets/candra.jpg";
+// import Rapi from "../assets/rapi.jpg";
 
 
 const Testi = () => {
 
-    const TestiData = [
-        {id : 1, title : "DELUXE SAVORY PIE WITH MOZARELLA", nama : "Andhika Gusti Al-Fahrezi", img : Dika},
-        {id : 2, title : "PREMIUM CHOCOLATE CAKE", nama : "Nadine Candra Prabs", img : Candra}
-    ]
+    // const TestiData = [
+    //     {id : 1, title : "DELUXE SAVORY PIE WITH MOZARELLA", nama : "Andhika Gusti Al-Fahrezi", img : Dika},
+    //     {id : 2, title : "PREMIUM CHOCOLATE CAKE", nama : "Nadine Candra Prabs", img : Candra}
+    // ]
     return (
         <div className=" min-h-[50vh] bg-ourwhite pb-10 lg:py-[5vh] bg-big lg:-mt-[30vh] px-12 lg:px-[14vh]">
             <div className="lg:flex lg:items-center flex-col">
